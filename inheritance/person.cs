@@ -12,7 +12,7 @@ namespace inheritance
         public string _soyad;
 
 
-        public virtual void Bilgiler()
+        public void Bilgiler()
         {
 
             Console.WriteLine("Ad :" + _ad + "Soyad :" + _soyad);
@@ -26,8 +26,8 @@ namespace inheritance
 
         public override void Bilgiler()
         {
-            
-            Console.WriteLine("Ad :" + _ad + " Soyad :" + _soyad + " Ogrenci Numarası :" + _ogrenci_no);
+            Bilgiler();
+            Console.WriteLine(" Ogrenci Numarası :" + _ogrenci_no);
         }
 
     }
@@ -42,7 +42,8 @@ namespace inheritance
         {
             
             
-            Console.WriteLine("Ad :" + _ad + " Soyad :" + _soyad + " Maas :" + _maas_bilgisi);
+            Bilgiler();
+            Console.WriteLine(" Ogrenci Numarası :" + _maas_bilgisi);
         }
 
     }
