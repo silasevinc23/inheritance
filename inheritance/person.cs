@@ -24,7 +24,7 @@ namespace inheritance
     {
         public int _ogrenci_no;
 
-        public override void Bilgiler()
+        public override void Ogrenci_Bilgiler()
         {
             Bilgiler();
             Console.WriteLine(" Ogrenci Numarası :" + _ogrenci_no);
@@ -38,7 +38,7 @@ namespace inheritance
     {
         public double _maas_bilgisi;
         
-        public override void Bilgiler()
+        public override void Ogretmen_Bilgiler()
         {
             
             
